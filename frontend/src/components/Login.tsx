@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { Eye, EyeOff, User, Mail, Lock, Loader2 } from 'lucide-react';
 
+// Force rebuild for GitHub Pages
+
 interface LoginProps { onToggleMode: () => void }
 
 const Login: React.FC<LoginProps> = ({ onToggleMode }) => {
