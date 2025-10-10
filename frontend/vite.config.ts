@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/agroconnect1/',
+  base: '/agroconnect1/',  // 👈 important for GitHub Pages
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
